@@ -32,7 +32,11 @@ public class LatihanStack {
         }
         
         while (!s2.empty()) {
-            System.out.print(s2.pop());
+            s3.push(s2.pop());
+        }
+        
+        while (!s3.empty()) {
+            System.out.print(s3.pop());
         }
         
         System.out.println();
